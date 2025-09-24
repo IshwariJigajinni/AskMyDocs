@@ -4,7 +4,7 @@
 
 Upload PDFs and ask questions with powerful retrieval-augmented generation (RAG) strategies. Built with **FastAPI**, **FAISS**, **OpenAI LLMs**, and **Streamlit** for a fully interactive experience.
 
----
+--
 
 ## 🔹 Features
 
@@ -23,7 +23,7 @@ Upload PDFs and ask questions with powerful retrieval-augmented generation (RAG)
 - Persistent vector storage — indexed PDFs survive server restarts.
 - Config-driven setup (`config.yaml`) for easy experimentation.
 
----
+--
 
 ## 🔹 Tech Stack
 
@@ -75,3 +75,6 @@ uvicorn backend.main:app --reload
 ```bash
 streamlit run frontend/app.py
 ```
+
+## Demo Video
+[Watch Demo](frontend/demo.mp4)

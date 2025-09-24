@@ -5,7 +5,7 @@ import pandas as pd
 BACKEND_URL = "http://localhost:8000"
 
 st.set_page_config(page_title="GenAI RAG Platform", layout="wide")
-st.title("📑 GenAI Document Intelligence Platform")
+st.title("📑 GenAI Document Intelligence Platform - AskMyDocs")
 st.write("Upload PDFs and ask questions. Powered by GPT + RAG strategies.")
 
 # ---------------- Upload Section ----------------
